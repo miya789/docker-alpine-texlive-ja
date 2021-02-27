@@ -23,6 +23,16 @@ RUN apk add --no-cache curl perl fontconfig-dev freetype-dev && \
       collection-latexextra \
       collection-fontsrecommended \
       collection-langjapanese \
+      newtxtext \
+      newtx \
+      fontaxes \
+      boondox \
+      txfonts \
+      helvetic \
+      siunitx \
+      mhchem \
+      cite \
+      chktex \
       latexmk && \
     rm -fr /tmp/install-tl-unx && \
     apk del .fetch-deps

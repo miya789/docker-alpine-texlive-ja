@@ -23,7 +23,6 @@ RUN apk add --no-cache curl perl fontconfig-dev freetype-dev && \
       collection-latexextra \
       collection-fontsrecommended \
       collection-langjapanese \
-      newtxtext \
       newtx \
       fontaxes \
       boondox \
